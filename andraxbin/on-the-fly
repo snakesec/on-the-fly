@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source /opt/ANDRAX/on-the-fly/bin/activate
+
+cd /opt/ANDRAX/on-the-fly/package
+
+/opt/ANDRAX/on-the-fly/bin/python3 on-the-fly.py "$@"
