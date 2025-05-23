@@ -5,7 +5,7 @@ python3 -m venv /opt/ANDRAX/on-the-fly
 source /opt/ANDRAX/on-the-fly/bin/activate
 
 /opt/ANDRAX/on-the-fly/bin/pip3 install -r requirements.txt
-/opt/ANDRAX/on-the-fly/python3/bin/pip3 install netfilterqueue
+/opt/ANDRAX/on-the-fly/bin/pip3 install netfilterqueue
 
 if [ $? -eq 0 ]
 then
